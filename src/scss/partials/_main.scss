@@ -1,0 +1,254 @@
+.main {
+
+    // INTRO Section
+    .intro {
+        text-align: center;
+        color: $white;
+        background:  $dark-grey;
+
+        .intro-box {
+            padding: 50px;
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+        .img-box {
+            background: url('../../img/intro.jpg');
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            padding-top: 50px;
+            
+            .guide-box {
+                margin-bottom: 55px;
+                font-size: 18px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+            }
+            
+            img {
+                width: 1000px;
+                margin-bottom: -5px;
+                
+                &.pdf-icon {
+                    width: 35px;
+                    margin-right: 25px;
+                }
+            }
+
+        }
+    }
+
+    //AI section
+
+    .artificial {
+        padding: 100px 0;
+        text-align: center;
+        color: $dark-grey;
+
+        p {
+            font-size: 18px;
+            line-height: 1.8rem;
+            margin-bottom: 60px;
+            padding: 0 90px;
+        }
+
+        .artificial-img {
+            position:relative;
+
+            img {
+                width:900px;
+            }
+
+            .control-left {
+                position: absolute;
+                left: 100px;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                line-height: 30px;
+                background: $orange;
+                color: $white;
+                cursor: pointer;
+            }
+
+            .control-right {
+                position: absolute;
+                right: 100px;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                line-height: 30px;
+                background: $orange;
+                color: $white;
+                cursor: pointer;
+            }
+        }
+    }
+
+    // Parallax n1
+
+    .para-1 {
+        background: url('../../img/image-bg-02.jpg');
+        height: 650px;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    // Painting Tools
+    .tools {
+        padding: 100px 0;
+        background: $grey;
+        color: $white;
+        text-align: center;
+
+        p {
+            font-size: 18px;
+            line-height: 1.8rem;
+            margin-bottom: 60px;
+            padding: 0 90px;
+        }
+
+        img {
+            width: 65%;
+            margin-bottom: 100px;
+        }
+
+        .text-img {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: left;
+            margin: 50px 0;
+
+            .text-apart {
+                flex-basis: 45%;
+
+                h4 {
+                    font-size: 24px;
+                    font-weight: 400;
+                }
+
+                p {
+                    font-size: 17px;
+                    margin-bottom: 0;
+                    padding: 0;
+        
+                }
+            }
+
+            img {
+                width: 50%;
+            }
+        }
+    }
+
+    // Parallax n2
+
+    .para-2 {
+        background: url('../../img/image-bg-01.jpg');
+        height: 650px;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    // Inspire
+
+    .inspire {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        padding: 100px 0;
+
+        .inspire-paint {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+            .paint-box {
+                width: 284px;
+                height: 284px;
+                position: relative;
+                overflow: hidden;
+                cursor: pointer;
+
+                img {
+                    width: 100%;
+
+                    &:hover {
+                        width: 120%;
+                    }
+                }
+
+                h5 {
+                    position: absolute;
+                    bottom: 10px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    color: $white;
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+            }
+        
+        }
+    }
+
+    // Explore
+
+    .explore {
+        background: url('../../img/brushpacks-bg.jpg');
+        padding-top: 90px;
+        padding-bottom: 150px;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            
+        
+            .white-box {
+                width: 45%;
+                background: $white;
+                text-align: center;
+                padding: 60px 40px 80px;
+                font-size: 16px;
+                line-height: 1.8rem;
+
+                h5 {
+                    font-size: 24px;
+                    font-weight: 400;
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                }
+
+                a {
+                    color: $blue;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: $over-blue;
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+
+}

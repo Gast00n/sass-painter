@@ -15,6 +15,12 @@ body {
   margin: 0 auto;
 }
 
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
 .btn {
   border-radius: 0;
   border: 0;
@@ -42,13 +48,11 @@ header .contacts .container .cont-list li {
 }
 header .contacts .container .cont-list li a {
   color: #989898;
-  -webkit-text-decoration: transparent;
-          text-decoration: transparent;
+  text-decoration: none;
 }
 header .contacts .container .cont-list li a:hover {
   color: #fff;
-  -webkit-text-decoration: #fff;
-          text-decoration: #fff;
+  text-decoration: underline;
 }
 header .contacts .container .cont-list li i {
   color: #009cff;
@@ -192,7 +196,7 @@ header .hero .right-hero .grey-box {
   cursor: pointer;
   background: #f1f1f1;
   padding: 15px;
-  color: #333;
+  color: #101010;
 }
 header .hero .right-hero .grey-box h4 {
   text-transform: uppercase;
@@ -211,7 +215,7 @@ header .hero .right-hero .grey-box a:hover {
 }
 header .fixed {
   background: #f1f1f1;
-  color: #333;
+  color: #101010;
   text-transform: uppercase;
 }
 header .fixed .fixed-menu {
@@ -227,4 +231,202 @@ header .fixed .fixed-menu li {
 header .fixed .fixed-menu li:hover {
   background: #fff;
   border-bottom: 3px #000 solid;
+}
+
+.main .intro {
+  text-align: center;
+  color: #fff;
+  background: #101010;
+}
+.main .intro .intro-box {
+  padding: 50px;
+}
+.main .intro .intro-box p {
+  font-size: 18px;
+}
+.main .intro .img-box {
+  background: url("../../img/intro.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+}
+.main .intro .img-box .guide-box {
+  margin-bottom: 55px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.main .intro .img-box img {
+  width: 1000px;
+  margin-bottom: -5px;
+}
+.main .intro .img-box img.pdf-icon {
+  width: 35px;
+  margin-right: 25px;
+}
+.main .artificial {
+  padding: 100px 0;
+  text-align: center;
+  color: #101010;
+}
+.main .artificial p {
+  font-size: 18px;
+  line-height: 1.8rem;
+  margin-bottom: 60px;
+  padding: 0 90px;
+}
+.main .artificial .artificial-img {
+  position: relative;
+}
+.main .artificial .artificial-img img {
+  width: 900px;
+}
+.main .artificial .artificial-img .control-left {
+  position: absolute;
+  left: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+  background: #e74500;
+  color: #fff;
+  cursor: pointer;
+}
+.main .artificial .artificial-img .control-right {
+  position: absolute;
+  right: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+  background: #e74500;
+  color: #fff;
+  cursor: pointer;
+}
+.main .para-1 {
+  background: url("../../img/image-bg-02.jpg");
+  height: 650px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.main .tools {
+  padding: 100px 0;
+  background: #222;
+  color: #fff;
+  text-align: center;
+}
+.main .tools p {
+  font-size: 18px;
+  line-height: 1.8rem;
+  margin-bottom: 60px;
+  padding: 0 90px;
+}
+.main .tools img {
+  width: 65%;
+  margin-bottom: 100px;
+}
+.main .tools .text-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  margin: 50px 0;
+}
+.main .tools .text-img .text-apart {
+  flex-basis: 45%;
+}
+.main .tools .text-img .text-apart h4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.main .tools .text-img .text-apart p {
+  font-size: 17px;
+  margin-bottom: 0;
+  padding: 0;
+}
+.main .tools .text-img img {
+  width: 50%;
+}
+.main .para-2 {
+  background: url("../../img/image-bg-01.jpg");
+  height: 650px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.main .inspire {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.main .inspire .inspire-paint {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .inspire .inspire-paint .paint-box {
+  width: 284px;
+  height: 284px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.main .inspire .inspire-paint .paint-box img {
+  width: 100%;
+}
+.main .inspire .inspire-paint .paint-box img:hover {
+  width: 120%;
+}
+.main .inspire .inspire-paint .paint-box h5 {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+}
+.main .explore {
+  background: url("../../img/brushpacks-bg.jpg");
+  padding-top: 90px;
+  padding-bottom: 150px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+.main .explore .container {
+  display: flex;
+  justify-content: space-between;
+}
+.main .explore .container .white-box {
+  width: 45%;
+  background: #fff;
+  text-align: center;
+  padding: 60px 40px 80px;
+  font-size: 16px;
+  line-height: 1.8rem;
+}
+.main .explore .container .white-box h5 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.main .explore .container .white-box a {
+  color: #009cff;
+  text-decoration: none;
+}
+.main .explore .container .white-box a:hover {
+  color: #28acff;
+  text-decoration: underline;
 }

@@ -19,11 +19,11 @@ header {
                     
                     a {
                         color: $light-grey;
-                        text-decoration: transparent;
+                        text-decoration: none;
 
                         &:hover {
                             color: $white;
-                            text-decoration: $white;
+                            text-decoration:underline;
                         }
                     }
         
