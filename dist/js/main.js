@@ -97,15 +97,26 @@
 
 /***/ }),
 
+/***/ "./src/scss/app.scss":
+/*!***************************!*\
+  !*** ./src/scss/app.scss ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!*************************************************!*\
-  !*** multi ./src/js/main.js ./src/css/main.css ***!
-  \*************************************************/
+/*!**************************************************!*\
+  !*** multi ./src/js/main.js ./src/scss/app.scss ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Marco\Desktop\Boolean Careers ESERCIZI IN CLASSE\hello_sass\src\js\main.js */"./src/js/main.js");
-!(function webpackMissingModule() { var e = new Error("Cannot find module 'C:\\Users\\Marco\\Desktop\\Boolean Careers ESERCIZI IN CLASSE\\hello_sass\\src\\css\\main.css'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+__webpack_require__(/*! C:\Users\Marco\Desktop\Booleans Careers\sass-painter\src\js\main.js */"./src/js/main.js");
+module.exports = __webpack_require__(/*! C:\Users\Marco\Desktop\Booleans Careers\sass-painter\src\scss\app.scss */"./src/scss/app.scss");
 
 
 /***/ })
